@@ -14,7 +14,7 @@ A valid path will look like this: localhost:8080/echo?file=./test/matrix.csv
 
 ## Running the Application
 
-Note: Make sure you Ruby and Bundler installed before running the application.
+Note: Make sure you have Ruby and Bundler installed before running the application.
 
 ```
 1. Clone or download the application folder
