@@ -22,6 +22,14 @@ class BodyTest < Minitest::Test
     assert_equal 'No file given.', exception.message
   end
 
+  def test_file_extension
+    exception = assert_raises(ArgumentError) do
+      Body.new('/echo', './test/matrix.pdf')
+    end
+
+    assert_equal 'The file must be a csv file.', exception.message
+  end
+
   def test_wrong_path
     exception = assert_raises(ArgumentError) do
       Body.new('/echos', './test/matrix.csv').result

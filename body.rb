@@ -10,6 +10,7 @@ class Body
 
     raise ArgumentError, 'Missing file parameter.' unless file
     raise ArgumentError, 'No file given.' if file.empty?
+    raise ArgumentError, 'The file must be a csv file.' unless File.extname(file) == ".csv"
 
     @compute = Compute.new(file)
   end
