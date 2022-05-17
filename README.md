@@ -1,6 +1,6 @@
 # League Backend Challenge
 
-This application provides a solution for the above challenge. The output can be viewed via the browser by starting the server and visiting the following paths:
+This application provides a solution for the above challenge. The output can be viewed via the browser by starting the server and visiting the following urls:
 
 1. localhost:8080/echo?file=<file_path>
 2. localhost:8080/invert?file=<file_path>
@@ -20,7 +20,7 @@ Note: Make sure you have Ruby and Bundler installed before running the applicati
 1. Clone or download the application folder
 2. Navigate to the root directory of the application in a terminal
 3. run bundle install
-4. run ruby server.rb start the server
+4. run ruby server.rb to start the server
 5. Open your browser and enter any of the above urls
 6. The result is displayed in the browser based on the solution output as outlined below.
 ```
