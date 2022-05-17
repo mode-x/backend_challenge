@@ -12,7 +12,9 @@ The <file_path> specifies the path to the csv file. For instance, ./test/matrix.
 
 A valid path will look like this: localhost:8080/echo?file=./test/matrix.csv
 
-## Installation
+## Running the Application
+
+Note: Make sure you Ruby and Bundler installed before running the application.
 
 ```
 1. Clone or download the application folder
