@@ -69,3 +69,27 @@ Given a csv file which contains.
    ```
    362880
    ```
+
+## Testing
+
+The test folder contains files for testing the application.
+
+From your terminal, after navigating to the root folder, execute the following:
+
+To run all the test
+
+```
+rake test
+```
+
+To run single file test
+
+```
+ruby body_test.rb
+```
+
+or
+
+```
+ruby compute_test.rb
+```
